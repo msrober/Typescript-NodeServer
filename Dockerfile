@@ -7,6 +7,6 @@ RUN npm install
 
 COPY ./Webserver .
 
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]
 
 EXPOSE 3010
