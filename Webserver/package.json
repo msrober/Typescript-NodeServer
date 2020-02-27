@@ -1,0 +1,32 @@
+{
+  "name": "typescript_nodeserver",
+  "version": "0.0.1",
+  "description": "A base typscript node server",
+  "main": "./dist/app.js",
+  "scripts": {
+    "start": "nodemon ./dist/app.js -e ts --exec \"tsc -p ./tsconfig.json && node ./dist/app.js\""
+  },
+  "author": {
+    "name": "Mitchell Roberts",
+    "email": "mitchellscottroberts@gmail.com",
+    "url": "https://github.com/msrober"
+  },
+  "keywords": [
+    "Base typscript node image"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@types/request": "^2.48.4",
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^12.12.28",
+    "nodemon": "^1.19.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}

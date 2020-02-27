@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir":"./dist",
+        "target":"es6",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+}
