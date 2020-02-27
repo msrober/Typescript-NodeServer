@@ -4,7 +4,7 @@
   "description": "A base typscript node server",
   "main": "./dist/app.js",
   "scripts": {
-    "start": "nodemon ./dist/app.js -e ts --exec \"tsc -p ./tsconfig.json && node ./dist/app.js\""
+    "start": "nodemon -e ts --exec \"tsc -p ./tsconfig.json && node ./dist/app.js\""
   },
   "author": {
     "name": "Mitchell Roberts",
